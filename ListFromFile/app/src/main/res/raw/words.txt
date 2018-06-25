@@ -1,0 +1,2 @@
+dictionary	COLLECTION OF WORDS
+raw	AS IT IS

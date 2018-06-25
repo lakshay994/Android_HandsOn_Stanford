@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "295065446603",
+    "firebase_url": "https://simpson-grades-9cbe1.firebaseio.com",
+    "project_id": "simpson-grades-9cbe1",
+    "storage_bucket": "simpson-grades-9cbe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295065446603:android:d00ec0640380d2b6",
+        "android_client_info": {
+          "package_name": "com.example.lakshaysharma.simpsongrades"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295065446603-hkval8o936v19hshvtcdueusegpr1fqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lakshaysharma.simpsongrades",
+            "certificate_hash": "3ac2bc42e0186f924c02072ec82551547fe1a738"
+          }
+        },
+        {
+          "client_id": "295065446603-dnfcmfnh2pha9feiau496eo48j4jfoof.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "295065446603-dnfcmfnh2pha9feiau496eo48j4jfoof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwm96xZmhGqcBExg3fmex7AE8NktWOYZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295065446603-dnfcmfnh2pha9feiau496eo48j4jfoof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

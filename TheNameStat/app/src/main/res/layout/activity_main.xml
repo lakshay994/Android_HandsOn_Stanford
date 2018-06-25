@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/sex"
+            android:layout_marginRight="15dp"
+            android:checked="true"
+            android:text="SEX"
+            android:textOff="F"
+            android:textOn="M"
+            android:showText="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <Button
+            android:onClick="searchStats"
+            android:id="@+id/search"
+            android:text="SEARCH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_marginTop="80dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp" />
+
+</LinearLayout>
